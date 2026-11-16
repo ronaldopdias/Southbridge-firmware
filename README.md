@@ -20,3 +20,9 @@ Licence: see [LICENSE-adapter-firmware.txt](LICENSE-adapter-firmware.txt).
 The release tagged `esptool-v5.6.0` holds the unmodified Windows build of esptool v5.6.0 and its complete source
 code. esptool is free software under the GNU General Public License, version 2 or later; see
 [LICENSE-esptool.txt](LICENSE-esptool.txt).
+
+## Error-code updates
+
+`error-codes/update.json` holds error codes added after the latest Southbridge release, and
+`error-codes/update.json.sha256` its SHA-256. The app checks the hash before it merges anything; codes that
+ship with the app always win.
